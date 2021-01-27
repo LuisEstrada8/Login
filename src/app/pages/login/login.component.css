@@ -1,0 +1,19 @@
+.coloreado {
+    display: inline-block;
+    color: #000;
+    background: #fff;
+    mix-blend-mode: multiply;
+    position: relative;
+}
+
+.coloreado:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgb(224, 10, 21), rgb(69, 45, 201));
+    mix-blend-mode: screen;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
